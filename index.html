@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Saarth Nikam - Portfolio</title>
+  <link rel="stylesheet" href="./style.css" />
+  <script src="./script.js"></script>
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div id="home">
+      <div class="profile_name">
+        <b>Saarth Nikam</b>
+        <div class="contact_info">
+          <img
+            src="https://png.pngtree.com/png-vector/20190725/ourmid/pngtree-vector-message-icon-png-image_1577496.jpg"
+            alt="mail" /><b>saarth.nikam20@gmail.com </b><br />
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="https://cdn-icons-png.freepik.com/512/4406/4406172.png" alt="call" />
+          <b>+91 9833651450</b>
+        </div>
+      </div>
+      <div class="topdiv">
+        <a class="topmenu" href="#about-me">About Me</a>
+        <!-- Add the links for Skills, Projects and Recommendation here -->
+        <a class="topmenu" href="#skills">Skills</a>
+        <a class="topmenu" href="#projects">Projects</a>
+        <a class="topmenu" href="#pub">Publication</a>
+        <a class="topmenu" href="#Ach">Achievements and Certifications</a>
+        <a class="topmenu" href="#exc">Extracurricular Activities</a>
+        <a class="topmenu" href="#recommendations">Recommendations</a>
+      </div>
+      <button class="btt" onclick="myFunction()"><img
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAaVBMVEUaGhr///8AAAAJCQkYGBgVFRUbGxsRERF1dXUQEBDHx8dHR0fv7+/Dw8P7+/twcHDe3t6zs7OioqIvLy8nJye7u7tkZGQ8PDytra3Pz8/k5ORqamqampohISFPT0+Ojo6CgoJXV1ddXV04mqmCAAAFH0lEQVR4nO2dbZuqIBCGdRSJMnsv23Zr2///I0/2CmponlSg577223YZj8AwM8DkeQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+mTAM+25Cq3AKlgHxvpvRHrRfxXG82lPfDWmJiH4TPyP5dVRisPZvrIO+G9MK9HVX+OVkJ7KN/2DD+m5OCwQTSeHExWEaDCSFAyi0ESi0Hyi0H7GWFK5F381pgVBICoWFMVQYEOnjIprdBc60Xhs/PSkw7hUEfDdPDyPSNIz9TK8Cpz8apy2k0SGd74RhM5WO59YnKWnaLhbjs8DxQtPXjNJzjDU9GuWdB8fk2j1DnURG+0N62Os/Mrw+KTka1IuhmN6nmFbieYrpJutD4KkXuTlzUewkMzkUOonR+e8ZTAylJ+3M6USa+7LExu+ecVmgPyfNy+gWSn1Fos6iaghJEein5tgaOigt8w/Nmvamx7QBHyVK0+KGCmPlKcnIoMRqbpj6jdrGR+pDDBqkxRn018SxFn9vmc0twVSJm0Z9uFEFGpaOUyQ2TIdKCVXzBKqLdXl8y7Lo40J55CDFyHq3oScey/W82IVZbLUYfM/G2+12nH4PFqUq757DkBlkRh8wOmTm/mtQEMiJT1bqUhCvJoLyzk9Ig2ygxgfzhugVotHfhvJDVNBopq6XF5LZiPI2N6DN34jMsqIqvDB/GB3HJfIujE+RlOp7RkwYOUCfQ8vS/nv049Ic97oRtIs1+s4TcmeS6/IqTA2rnjA31q5UEXE2rNbnG7s2VMN/trUE+v72x0qJjNcVeJLIbRyoVG+IXgeqheamlpF5UOLpGQ7tqlUp2LZosGXVOpgnXto1FaVdmLrod2tMQxx1rlo5yd6mPUV67mw/Z2xRJ+azZjUxKXtYQYNZmGHPTAz567MwI7Fm71s5wfYK1px2o1VDhSvDhikPLhTGFr262t8o7HeE4voVPXgDkaDNZHBmLdRkC1s0FOj7C1lJxIivL18xKea3WofWUoJ6psR3yuGn11BSyeJHMslf645HMP0qLZvKL5++Gyv8lmSwxVT5X7fH38U+tx7I/kjD1TBDXhHzflGy79IhKFpL6esbuWwXpBfF9/l/dmlpw6BgLaUdaaqfvcizlZ5yyP8z7tDYhMXob/52hYUcQZcRpPt92OI8vC+sotd5eDIDOlua5ttWG70t7TRC7mA95L2uh0WfRnLb3uXT8F59mvNe5s0v5eqOZvgmv9RjJHr0S71OY4vArExj5Ex8+BT3Y3z38zTu59o+IF8aOp/zLkbINbBr38L9vadm+4dWHR2KnN8D/oB9/A84i+Ex9sJ5GmaWa10T5vqZqJNr4/q5NvfPJma4fr7Uqzwj7M+WlgksO+e915/zLjzB4EkZ3s7qq+6X/qy+/NnodlZfd8+0Rx73LfKhOidRet8iF0xEntn3LercmUnVOzP5nnrcmTHxRO1r955KBcj3ngzLH3ov3V17OseMvruWv3/YpHlG3z8MgzbukL69mf+B8/eA3b/L7f59/DfVVMinBVJzrrXl62I0tIJRoS7Ge5v5HwRqbZPm04cHhtY2CXnN+jRhRX2ayNT6NEqNIW2FpEuNIe1HjKwx9AF1olqo9cWN6sEM5+u1VWN9zb1K3K+b6H7tSyi0Hyi0nw9Q6HxNdvfr6rv/2wiyU7MOjMlPvBXnf6PEi1z/nRnv9ltBLnrddyLHf+4JAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQCX/AAPDQUGZFNGXAAAAAElFTkSuQmCC"
+          class="dbtt"></button>
+
+    </div>
+  </nav>
+
+  <!-- About Me -->
+  <section id="about-me" class="container">
+    <div>
+      <img
+        src="https://media.licdn.com/dms/image/D4D03AQF88APjWxWxXQ/profile-displayphoto-shrink_800_800/0/1696405363249?e=2147483647&v=beta&t=LYkgFGzG4IXR5PLR9FiiFno9eZKfAC5VrhgVGSgZnfA"
+        class="profile_image" />
+    </div>
+
+    <div>
+      <h1>
+        Hi, I'm Saarth Nikam! <img src="https://i.pinimg.com/originals/b9/37/12/b9371273ae94a946e92074d1b9696680.gif"
+          class="hiimg" />
+      </h1>
+      <p>
+        As a performance driven individual with a newly minted engineering degree in Electronics & Telecommunications, I
+        am immersed in the ever-evolving domain of IoT and embedded systems. I've developed a keen understanding of both
+        hardware and software dimensions of the field. My core strength lies in seamlessly integrating microcontrollers,
+        sensors, and cloud platforms to create end-to-end solutions that are robust and user-centric.
+
+        Basic understanding in multiple programming languages, from Python to C and C++ and web technologies like HTML,
+        CSS & JavaScript, has enabled me to work effectively across different platforms and cater to diverse academic
+        project. This versatility proves invaluable in scenarios requiring cross-functional collaboration and rapid
+        prototyping, where I can offer both breadth and depth of technical expertise.
+        I am eager to engage in practical scenarios and navigate real-world challenges while showcasing problem-solving
+        acumen. I want to contribute meaningfully to teams and projects that seek both innovation and reliability.
+
+        To know more about me, connect with me on <a style="color: #CFFF04"
+          href="https://www.linkedin.com/in/saarth-nikam-b861ab241/"><b>LinkedIn</b></a> or drop me a line at - <b><u>
+            <a style="color:#CFFF04" href="saarth.nikam20@gmail.com;">saarth.nikam20@gmail.com</a></u></b>
+      </p>
+      <h3><img src="https://cdn.dribbble.com/users/187497/screenshots/1395665/education-dribbble.gif"
+          class="edimg"><b><u>Education</u></b></h3>
+      <table style=' border: 2px solid black; font-family: ' Courier New', Courier,monospace;'>
+        <tr>
+          <th>
+            <h3>Qualification</h3>
+          </th>
+          <th>
+            <h3>Name of the Institute</h3>
+          </th>
+          <th>
+            <h3>Year</h3>
+          </th>
+          <th>
+            <h3>Score</h3>
+          </th>
+        </tr>
+        <tr>
+          <td>Bachelor of Engineering in Electronics &
+            Telecommunications.</td>
+          <td>A.P. Shah Institute of Technology, Thane – Affiliated to University of Mumbai,
+            Maharashtra, India.</td>
+          <td>June 2023</td>
+          <td>9.71 CGPA out of 10 (87.89%)</td>
+        </tr>
+        <tr>
+          <td>Higher Secondary School Certificate Examination
+            (Class 12th)</td>
+          <td>M.H. High School & Junior College, Thane - Maharashtra State Board of Secondary and Higher Secondary
+            Education, Pune, Maharashtra, India.
+            Mumbai Divisional Board</td>
+          <td>February 2019</td>
+          <td>79.69%</td>
+        </tr>
+        <tr>
+          <td>Secondary School Certificate Examination
+            (Class 10th)</td>
+          <td>VPM's Sou. A. K. Joshi English Medium School, Thane - Maharashtra State Board of Secondary and Higher
+            Secondary Education, Pune, Maharashtra, India.
+            Mumbai Divisional Board</td>
+          <td>March 2017</td>
+          <td>95.80%</td>
+        </tr>
+      </table>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2><img src="https://leverageedu.com/blog/wp-content/uploads/2021/05/infirmationssakerhet_startcase_01.gif"
+        class="skillimg">Basic
+      Skills and Understanding</h2>
+    <div style="clear:both;"></div>
+
+    <div class="all_skills">
+
+      <div class="skill">
+        <img src="https://i.pinimg.com/originals/33/4e/06/334e063ae9f247704b37549b4b0f47d1.png" />
+        <h6>Internet of Things (IoT)</h6>
+      </div>
+
+      <div class="skill">
+        <img src="https://content.arduino.cc/assets/arduino_logo_1200x630-01.png" />
+        <h6>Arduino</h6>
+      </div>
+
+      <div class="skill">
+        <img src="https://pbs.twimg.com/profile_images/773245254979903488/yB0xE3NR_400x400.jpg" />
+        <h6>ESP</h6>
+      </div>
+
+      <div class="skill">
+        <img src="https://www.freeiconspng.com/thumbs/html5-icon/html5-icon-1.png" />
+        <h6>HTML</h6>
+      </div>
+
+      <div class="skill">
+        <img src="https://cdn-icons-png.flaticon.com/512/919/919826.png" />
+        <h6>CSS</h6>
+      </div>
+
+      <div class="skill">
+        <img src="https://logos-world.net/wp-content/uploads/2023/02/JavaScript-Logo.png" />
+        <h6>JavaScript</h6>
+      </div>
+
+
+      <div class="skill">
+        <img src="https://logos-world.net/wp-content/uploads/2021/10/Python-Symbol.png" />
+        <h6>Python</h6>
+      </div>
+
+      <div class="skill">
+        <img
+          src="data:image/png;base64,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" />
+        <h6>Wireless Communications</h6>
+      </div>
+
+
+
+
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects" id="projects">
+    <h2><img src="https://cdn.dribbble.com/users/1579322/screenshots/6587273/blue_boy_typing_nothought.gif"
+        class="projimg">
+      Academic Projects
+    </h2>
+    <div style="clear:both;"></div>
+
+
+    <div id="projects-container" class="projects-container">
+      <div class="project-card">
+        <h3>Establishing Mesh Network to Transfer and Visualize Data for Safety of Underground Miners</h3>
+        <ul>
+          <li>The aim of the project was to build a safety vest for the underground miners that records the status of
+            the miner as well as the surroundings. The data recorded from the sensors could be shared over a webpage and
+            then over the internet for data visualization. Established a mesh network to enable wireless communication
+            between the base station and individual miners. Researched extensively about renewable energy generation
+            techniques. (piezo and solar)
+            Individual role comprised working on the hardware part of the project and to build the mesh network for
+            communication between the devices in the network.</li>
+        </ul>
+      </div>
+      <hr>
+      <div class="project-card">
+        <h3>Capstone Project at hands-on session and workshop at TIH-IIT Bombay on the Basics of IoT</h3>
+        <ul>
+          <li>Used 7 sensors for data collection on the ESP-32 board. Integrated the sensors and displayed results on
+            online cloud platforms like Thingspeak & Freeboard. Established multi-device communication using MQTT
+            protocol.</li>
+        </ul>
+      </div>
+      <hr>
+      <div class="project-card">
+        <h3>Flip-flops demonstration on FPGA board</h3>
+        <ul>
+          <li>The aim of the project was to use Xilinx software to work with FPGA board and design a basic firmware and
+            demonstrate flip flop working using the onboard led. Individual role comprised configuring the Xilinx
+            software on Linux and writing the code in Verilog on Field Programmable Gate Array (FPGA) for SR flip flop.
+          </li>
+        </ul>
+      </div>
+
+      <hr>
+      <div class="project-card">
+        <h3>Smart Home Automation</h3>
+        <ul>
+          <li>
+            The aim of the project was to build a smart home automation system using ESP-8266 and relay module. Home
+            appliances like lights, fans, air conditioners could be controlled remotely using smartphone by connecting
+            to the internet/Wifi, through applications such as Blynk. Technical skills used here were ESP 8266 and
+            ArduinoIDE. Individual role comprised building the simulation circuit and carrying out the ESP programming
+            for the same.
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+  <div style="clear:both;"></div>
+
+  <section id="pub">
+    <h2><img src="https://lwfiles.mycourse.app/sapphire-public/673b769351a94caef1fe85d7ca8c8d51.gif"
+        class="pubimg">Publication</h2>
+    <div style="clear:both;"></div>
+    <div class="pub">
+      <ul> <i> M. Kurvey, M. Pawaskar, S. Nikam, R. Jagtap, S. Bhandary and A. Acharya</i>, “Establishing Mesh
+        Network to Transfer and Visualize Data for Safety of Underground Miners”, published in IEEE Xplore Digital
+        Library, Oct’23,
+        pp. 1134-1139, doi: 10.1109/ICPCSN58827.2023.00192.
+      </ul>
+
+      <ul style="text-align:center"><a href="https://ieeexplore.ieee.org/document/10265901">
+          <font size=5>IEEE Published paper Link</font>
+        </a></ul>
+
+      <ul>A safety monitoring and smart system are essential in the mining industry to avoid any kind of adverse
+        occurrence and to enhance miners' safety and efficiency. This might be accomplished by creating a wearable that
+        comprises several sensors that detect safety parameters and transmit the data to the network.
+
+        The research's primary goal is to create a wireless system for coal miners utilizing a LAN network employing
+        numerous ESP modules in a mesh topology. This system will allow centralized management to monitor real-time
+        environmental parameters and take preemptive steps. This may be done using third-party software or an offline
+        website.
+
+        The proposed work provides a real-time ESP-based wireless multi-node network monitoring system that is
+        technologically advanced, with minimal latency, high accuracy, and high reliability when compared to the
+        available wired monitoring system for underground mines. In addition to that, the work also provides a
+        simplified interface for the display of acquired data.</ul>
+
+
+      <ul>
+
+        <i>Presented Research paper at ICPCSN Conference under IEEE paper published on 20/06/2023.</i>
+        <div class="cert"> <u>Hover here to view the Paper Presentation certificate.</u></div>
+        <div class="hide">
+          <img
+            src="https://media.licdn.com/dms/image/D4D2DAQGPPCzk9yKbSQ/profile-treasury-image-shrink_800_800/0/1696403685474?e=1709661600&v=beta&t=XtYaB5Gs8WRIqiDc8e9ANf18k-uEJnJhhhkFL8KaDo8">
+        </div>
+
+      </ul>
+
+
+    </div>
+  </section>
+
+  <section id="Ach">
+    <h2><img
+        src="https://cdn.dribbble.com/users/3674349/screenshots/20495212/media/1814ec45d38f8c75d209598e8acc60ff.gif"
+        class="achimg">Achievements and Certifications</h2>
+    <div style="clear:both;"></div>
+    <div class="ach">
+      <ul>
+        <li>
+          <i>EXTC Branch Topper at A.P. Shah Institute of Technology</i>,
+          BE Electronics and Telecommunications Engineering:
+          <i>CGPI 9.71 out of 10; Percentage 87.89%.</i>
+          <div class="hover-link"><u>Hover to view the photograph.</u></div>
+          <div class="hides">
+            <img
+              src="https://media.licdn.com/dms/image/D4D2DAQE7SVkq0Ioy5Q/profile-treasury-image-shrink_800_800/0/1696404471696?e=1709672400&v=beta&t=vOJZ9MwiK09EZPjf3Aiz0kI_FL898C8XZ1KLIIJFSI4">
+          </div>
+        </li>
+        <li>
+          Completed the Introductory Course on Internet of Things (IoT) at IIT Bombay.
+          <div class="hover-link"><u>Hover to view the certificate.</u></div>
+          <div class="hides">
+            <img
+              src="https://media.licdn.com/dms/image/D4D2DAQGgebcx3q778w/profile-treasury-image-shrink_800_800/0/1696405672409?e=1709676000&v=beta&t=2kD4PTGJ-Je6jkwbvCkv_S0A8TTVAGLwY_bDYqAqZ5I">
+          </div>
+        </li>
+        <li>
+          Received 1st Runner up in intercollege BE project competition under Industry 4.0 Domain on 31st March, 2023 at
+          EXALT- A.P.Shah Institute of Technology's Technical festival.
+          <div class="hover-link"><u>Hover to view the certificate.</u></div>
+          <div class="hides">
+            <img
+              src="https://media.licdn.com/dms/image/D4D2DAQHCEDR9eNH5Pw/profile-treasury-image-shrink_800_800/0/1696403319442?e=1709665200&v=beta&t=CjEpFzzjI59PlNYD4mmwPu0TEIaE689mkMdLG_8OObs">
+          </div>
+        </li>
+        <li>
+          <i>Teaching Assistant (Two Days Role) at A. P. Shah Institute of Technology, Thane.</i>
+          I led short workshop focusing on the interfacing of sensors with microcontrollers. In these sessions, I
+          presented the foundational concepts of microcontroller and Arduino programming to my peers, simplifying
+          complex
+          ideas for their better comprehension. Furthermore, I showcased the functionalities of various sensors and
+          explained different communication protocols in easily understandable terms.
+          <div class="hover-link"><u>Hover to view the photograpgh of the session.</u></div>
+          <div class="hides">
+            <img
+              src="https://media.licdn.com/dms/image/D4D2DAQHTBFZLQEZeFg/profile-treasury-image-shrink_800_800/0/1696402105180?e=1709665200&v=beta&t=6sdrKKjhUtb1k0lQXRRlXXf_T33Rc_oSidkutGN7gRA">
+          </div>
+        </li>
+        <li>
+          <i>Served as the Vice President at IETE AP Shah Institute of Technology.</i>
+          Arranged various events both technical and non-technical and conducted workshops for EXTC branch at A.P. Shah
+          Institute of Technology.
+          <div class="hover-link"><u>Hover to view the IETE Card.</u></div>
+          <div class="hides">
+            <img
+              src="https://media.licdn.com/dms/image/D4D2DAQFMtODIxcIQSQ/profile-treasury-image-shrink_800_800/0/1696405064780?e=1709676000&v=beta&t=otVaVleaosLuSd_zfJm-j29ssen-pTJrgjjnqwBL2Fc">
+          </div>
+        </li>
+        <li>
+          <i>Completed Python for Data Science, AI & Development course by IBM on coursera</i>
+          <div class="hover-link"><u>Hover to view the certificate.</u></div>
+          <div class="hides">
+            <img
+              src="https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~27XRFEZTPJLC/CERTIFICATE_LANDING_PAGE~27XRFEZTPJLC.jpeg">
+          </div>
+        </li>
+        <li>
+          <i>Completed Introduction to Web Development with HTML, CSS, JavaScript course by IBM on coursera</i>
+          <div class="hover-link"><u>Hover to view the certificate.</u></div>
+          <div class="hides">
+            <img src="https://coursera-certificate-images.s3.amazonaws.com/UGFEU2R5H7RZ">
+          </div>
+        </li>
+        <li>Successfully cleared IELTS English lanuguage exam with 7.5 band out of 9 showing C1 level of English in
+          2022.
+        </li>
+        <li> Received admit from German university- Technical University of Munich for Masters in Communication and
+          Electronics in 2023 but did not pursue it.</li>
+        <li> Currently received admits from USA universities of UW Madison, SUNY Buffalo, Arizona State University and
+          Virginia Tech.</li>
+      </ul>
+
+    </div>
+  </section>
+
+  <section id="exc">
+    <h2><img src="https://i.gifer.com/CxrL.gif" class="excimg">Extracurricular Activities</h2>
+    <div style="clear:both;"></div>
+    <div class="exca">
+      <ul>
+        <li>Core Member for IETE (Institute of Electronics and Telecommunications Engineers) at A. P. Shah Institute of
+          Technology, Mumbai, ‘20- ‘23.</li>
+        <li>Treasurer for IETE (Institute of Electronics and Telecommunications Engineers) student organisation, A. P.
+          Shah Institute of Technology, Mumbai, ‘20- ‘22.</li>
+        <li>Vice President for IETE student organisation, A. P. Shah Institute of Technology, Mumbai, ‘22- ‘23.</li>
+        <li>Volunteer, OJUS College Technical and Cultural Festival, A. P. Shah Institute of Technology, Mumbai, ‘21-
+          ‘22.</li>
+        <li>Volunteered for OJUS Sports as an Event Head, at A. P. Shah Institute of Technology, Mumbai, ’21-’22.</li>
+        <li>Mentored a group of students during ‘APSIT Skills’ (an internship program), A. P. Shah Institute of
+          Technology, Mumbai, ’20-‘21.</li>
+        <li>Languages known: English, Marathi, Hindi, Sanskrit and basics of German.</li>
+        <li>I like to play Tabla-Indian classical musical instrument- Completed 2 exams for the same.</li>
+        <li>My hobbies are playing Cricket, Carrom, PC games and reading books & watching videos about geopolitics,
+          mythology and current affairs.</li>
+      </ul>
+
+      <!-- Recommendations -->
+      <section id="recommendations">
+        <h2><img
+            src="https://media0.giphy.com/media/sdjzyK11BKMRK5fw3q/giphy.gif?cid=790b7611bc2558phaplzta67zmyn3jawhm3tg7nbiitfpqj2&ep=v1_gifs_search&rid=giphy.gif&ct=g"
+            class="recimg">Recommendation</h2>
+        <div style="clear:both;"></div>
+        <div class="all_recommendations" id="all_recommendations">
+          <div class="recommendation">
+            <span>&#8220;</span>
+            xyz
+            <span>&#8221;</span>
+          </div>
+          <div class="recommendation">
+            <span>&#8220;</span>
+            abc
+            <span>&#8221;</span>
+          </div>
+          <div class="recommendation">
+            <span>&#8220;</span>
+            123
+            <span>&#8221;</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Recommendation Form -->
+      <section id="contact">
+        <div class="flex_center">
+          <fieldset>
+            <legend class="introduction">Leave a Recommendation</legend>
+            <input type="text" style="color:black" placeholder="Name (Optional)"> <br />
+            <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+            <div class="flex_center">
+              <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+            </div>
+          </fieldset>
+        </div>
+      </section>
+
+      <div class="iconbutton">
+        <a href="#home">
+          <!--Add the code here for the logo to appear and the icon to be actionable-->
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white"
+            width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        </a>
+      </div>
+
+      <div class="popup" id="popup" class="flex_center">
+        <img src="https://media1.tenor.com/m/-JIgHIMq1u8AAAAC/cool.gif" class="thimg" />
+        <h3>Thanks for leaving a recommendation for SPN</h3>
+        <button onclick="showPopup(false)">Ok</button>
+      </div>
+</body>
+<footer>
+  <p><a style="color: #CFFF04"
+      href="https://docs.google.com/document/d/1_5nRaeTXaEiLTM3k3-6oiVVrrx_Jh4o0--t8LV2p6K4/edit?usp=sharing">Click
+      here for viewing the CV</a></p>
+  <p> &#169; This personal portfolio is developed by Saarth Nikam.</p>
+
+</footer>
+
+</html>
