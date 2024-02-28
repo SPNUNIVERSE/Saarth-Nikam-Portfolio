@@ -529,10 +529,376 @@ button:hover {
   cursor: pointer;
 }
 
-@media (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   main {
     flex-direction: row;
     justify-content: space-around;
   }
+nav {
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+    }
 
+    #home {
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .profile_name {
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    .contact_info {
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .contact_info img {
+      width: 24px;
+      height: 24px;
+      margin-right: 10px;
+    }
+
+    .topdiv {
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    .topmenu {
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+      display: block;
+    }
+
+    .btt {
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+      display: block;
+    }
+
+    .profile_image {
+      width: 100%;
+      height: auto;
+    }
+
+    h1 {
+      font-size: 24px;
+    }
+
+    h3 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    table th,
+    table td {
+      border: 1px solid black;
+      padding: 10px;
+      text-align: left;
+    }
+
+    table th {
+      background-color: #f2f2f2;
+    }
+
+    .hiimg {
+      width: 50px;
+      height: 50px;
+      margin-left: 10px;
+    }
+
+    .edimg {
+      width: 50px;
+      height: 50px;
+      margin-left: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    th,
+    td {
+      border: 1px solid black;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      font-size: 1.2rem;
+    }
+
+    td {
+      font-size: 1.1rem;
+    }
+  }
+
+  #skills {
+    h2 {
+      text-align: center;
+    }
+  }
+
+  .all_skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .skill {
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+  }
+
+  .skill img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+  }
+
+  .skill h6 {
+    font-size: 14px;
+  }
+
+  .projects {
+    h2 {
+      text-align: center;
+    }
+  }
+
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .project-card {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .project-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .project-card ul {
+    padding-left: 20px;
+    font-size: 14px;
+  }
+
+  .project-card li {
+    margin-bottom: 5px;
+  }
+
+  #pub {
+    h2 {
+      text-align: center;
+    }
+
+    .pub {
+      width: 100%;
+      padding: 0 10px;
+      box-sizing: border-box;
+    }
+
+    .pub ul {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .pub i {
+      display: block;
+      font-style: normal;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    .cert {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 14px;
+    }
+
+    .hide {
+      display: none;
+    }
+
+    .hide img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  #Ach {
+    h2 {
+      text-align: center;
+    }
+
+    .ach {
+      width: 100%;
+      padding: 0 10px;
+      box-sizing: border-box;
+    }
+
+    .ach ul {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .ach li {
+      margin-bottom: 20px;
+    }
+
+    .ach i {
+      display: block;
+      font-style: normal;
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+
+    .ach .hover-link {
+      text-align: center;
+      font-size: 14px;
+      margin-top: 5px;
+    }
+
+    .ach .hides {
+      display: none;
+    }
+
+    .ach .hides img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  #exc {
+    h2 {
+      text-align: center;
+    }
+
+    .exca {
+      width: 100%;
+      padding: 0 10px;
+      box-sizing: border-box;
+    }
+
+    .exca ul {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .exca li {
+      margin-bottom: 15px;
+    }
+  }
+
+  #recommendations {
+    width: 100%;
+  }
+
+  #recommendations h2 {
+    font-size: 24px;
+  }
+
+  .all_recommendations {
+    width: 100%;
+  }
+
+  .recommendation {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .recimg {
+    width: 100%;
+    height: auto;
+  }
+
+  #contact {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .flex_center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  fieldset {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  legend {
+    font-size: 24px;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .iconbutton {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .popup {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    display: none;
+  }
+
+  .popup.show {
+    display: block;
+  }
+
+  footer {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
 }
