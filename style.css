@@ -536,7 +536,7 @@ button:hover {
   .profile_image {
     width: 100%;
     /* Make the image full width */
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     /* Add some spacing below the image */
   }
 
