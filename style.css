@@ -582,7 +582,10 @@ nav {
       box-sizing: border-box;
       display: block;
     }
-
+.profile_image {
+    width: 100%;
+    margin-bottom: 10px;
+  }
     .btt {
       width: 100%;
       padding: 10px;
