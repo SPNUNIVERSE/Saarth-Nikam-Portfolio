@@ -803,7 +803,7 @@ nav {
 
   #exc {
     h2 {
-      text-align: left;
+      text-align: center;
     }
 
     .exca {
@@ -815,6 +815,7 @@ nav {
     .exca ul {
       font-size: 14px;
       line-height: 1.5;
+      text-align: left;
     }
 
     .exca li {
