@@ -529,7 +529,6 @@ button:hover {
   cursor: pointer;
 }
 
-
 @media only screen and (max-width: 600px) {
   nav {
     width: 100%;
@@ -660,116 +659,116 @@ button:hover {
   td {
     font-size: 1.1rem;
   }
-}
 
-#skills {
-  h2 {
+  #skills {
+    h2 {
+      text-align: center;
+      width: 200%;
+    }
+  }
+
+  .all_skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .skill {
+    width: 30%;
+    margin-right: 10px;
+    text-align: justify;
+
+  }
+
+  .skill img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+  }
+
+  .skill h6 {
+    font-size: 14px;
+  }
+
+  .projects {
+    h2 {
+      text-align: center;
+      width: 200%;
+    }
+  }
+
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 200%;
+  }
+
+
+  .project-card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .project-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .project-card ul {
+    padding-left: 20px;
+    font-size: 14px;
+  }
+
+  .project-card li {
+    margin-bottom: 5px;
+  }
+
+  #pub h2 {
     text-align: center;
     width: 200%;
   }
-}
 
-.all_skills {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.skill {
-  width: 30%;
-  margin-right: 10px;
-  text-align: justify;
-
-}
-
-.skill img {
-  width: 70px;
-  height: 70px;
-  margin-bottom: 10px;
-}
-
-.skill h6 {
-  font-size: 14px;
-}
-
-.projects {
-  h2 {
-    text-align: center;
+  .pub {
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
     width: 200%;
   }
-}
 
-.projects-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 200%;
-}
+  .pub ul {
+    font-size: 14px;
+    line-height: 1.5;
+  }
 
+  .pub i {
+    display: block;
+    font-style: normal;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
 
-.project-card {
-  width: 100%;
-  margin-bottom: 20px;
-}
-
-.project-card h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-.project-card ul {
-  padding-left: 20px;
-  font-size: 14px;
-}
-
-.project-card li {
-  margin-bottom: 5px;
-}
-
-#pub h2 {
-  text-align: center;
-  width: 200%;
-}
-
-.pub {
-  width: 100%;
-  padding: 0 10px;
-  box-sizing: border-box;
-  width: 200%;
-}
-
-.pub ul {
-  font-size: 14px;
-  line-height: 1.5;
-}
-
-.pub i {
-  display: block;
-  font-style: normal;
-  font-size: 14px;
-  margin-bottom: 10px;
-}
-
-.cert {
-  text-align: center;
-  margin-top: 20px;
-  font-size: 14px;
-}
-
-.hide {
-  display: none;
-}
-
-.hide img {
-  width: 100%;
-  height: auto;
-}
-
-
-#Ach {
-  h2 {
+  .cert {
     text-align: center;
-    width: 200%;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .hide img {
+    width: 100%;
+    height: auto;
+  }
+
+
+  #Ach {
+    h2 {
+      text-align: center;
+      width: 200%;
+    }
   }
 
   .ach {
@@ -912,6 +911,11 @@ button:hover {
     box-sizing: border-box;
     text-align: center;
   }
+
+  footer p {
+    font-size: 14px;
+  }
+}
 
   footer p {
     font-size: 14px;
