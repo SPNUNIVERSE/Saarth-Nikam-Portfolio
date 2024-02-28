@@ -4,14 +4,14 @@ body {
   background-color: #49c5b6;
   color: #fff;
   dark-mode;
-
-
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 
-
-
-/* Navigation Bar */
+}
 
 #home {
   background-color: #2779a7;
@@ -22,9 +22,10 @@ body {
   padding-top: 2cm;
   padding-bottom: 2cm;
   height: 11mm;
-  width: 100%;
+  width: 100vw;
   border: 5cm #04d9ff;
 }
+
 
 .topmenu {
 
@@ -69,7 +70,6 @@ body {
   background-color: black;
   border-radius: 45%;
   border-color: wheat;
-  colo
 }
 
 
@@ -397,6 +397,7 @@ td {
   flex-direction: row;
   flex-flow: wrap;
   padding: 20px;
+  color: black;
 }
 
 .recommendation {
@@ -411,13 +412,15 @@ td {
   margin: 10px;
   border: 1px solid gray;
   font-size: 18px;
-  height: 150px
+  height: 150px;
+  color: black;
 }
 
 .recommendation span {
-  color: #CFFF04;
+  color: black;
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
+  color: black;
 }
 
 /* Scroll to Top Button */
@@ -433,6 +436,7 @@ td {
   right: 3%;
   bottom: 3%;
   cursor: pointer;
+
 }
 
 /* Form Pop-up */
@@ -448,6 +452,7 @@ td {
   position: fixed;
   /* padding: 30px; */
   visibility: hidden;
+  color: black;
 }
 
 .popup img {
@@ -457,7 +462,7 @@ td {
 .popup button {
   background-color: #fff;
   border: 1px solid #CFFF04;
-  color: #CFFF04;
+  color: black;
   display: block;
   border-radius: 6px;
   text-align: center;
@@ -504,7 +509,7 @@ fieldset {
 button {
   background-color: #fff;
   border: 1px solid #CFFF04;
-  color: #CFFF04;
+  color: black;
   display: block;
   border-radius: 6px;
   text-align: center;
@@ -515,7 +520,7 @@ button {
 }
 
 button:hover {
-  background-color: #CFFF04;
+  background-color: black;
   border: 1px solid #CFFF04;
   color: #fff;
   display: block;
@@ -524,12 +529,10 @@ button:hover {
   cursor: pointer;
 }
 
-
-
-
-
-
-@media only screen and (min-width: 600px) {
-  nav {
-    text-align: left;
+@media (min-width: 768px) {
+  main {
+    flex-direction: row;
+    justify-content: space-around;
   }
+
+}
