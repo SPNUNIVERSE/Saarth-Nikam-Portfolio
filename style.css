@@ -528,7 +528,6 @@ button:hover {
   text-align: center;
   cursor: pointer;
 }
-
 @media only screen and (max-width: 600px) {
   nav {
     width: 100%;
@@ -664,7 +663,7 @@ button:hover {
 #skills {
   h2 {
     text-align: center;
-
+    width: 200%;
   }
 }
 
@@ -676,8 +675,9 @@ button:hover {
 
 .skill {
   width: 30%;
-  margin: 10px;
+  margin-right: 10px;
   text-align: justify;
+
 }
 
 .skill img {
@@ -693,6 +693,7 @@ button:hover {
 .projects {
   h2 {
     text-align: center;
+    width: 200%;
   }
 }
 
@@ -700,6 +701,7 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  width: 200%;
 }
 
 
@@ -725,12 +727,14 @@ button:hover {
 #pub {
   h2 {
     text-align: center;
+    width: 200%;
   }
 
   .pub {
     width: 100%;
     padding: 0 10px;
     box-sizing: border-box;
+    width: 200%;
   }
 
   .pub ul {
@@ -764,17 +768,20 @@ button:hover {
 #Ach {
   h2 {
     text-align: center;
+    width: 200%;
   }
 
   .ach {
     width: 100%;
     padding: 0 10px;
     box-sizing: border-box;
+    width: 200%;
   }
 
   .ach ul {
     font-size: 14px;
     line-height: 1.5;
+    width: 200%;
   }
 
   .ach li {
@@ -807,6 +814,7 @@ button:hover {
 #exc {
   h2 {
     text-align: center;
+    width: 200%;
   }
 
   .exca {
@@ -819,6 +827,7 @@ button:hover {
     font-size: 14px;
     line-height: 1.5;
     text-align: left;
+    width: 200%;
   }
 
   .exca li {
@@ -827,11 +836,14 @@ button:hover {
 }
 
 #recommendations {
-  width: 100%;
-}
+  width: 50%;
 
-#recommendations h2 {
-  font-size: 24px;
+
+  #recommendations h2 {
+    font-size: 24px;
+    width: 400%;
+  }
+
 }
 
 .all_recommendations {
@@ -905,5 +917,4 @@ footer {
 
 footer p {
   font-size: 14px;
-}
 }
