@@ -833,89 +833,88 @@ button:hover {
   .exca li {
     margin-bottom: 15px;
   }
-}
 
-#recommendations {
-  width: 50%;
-
+  #recommendations {
+    width: 50%;
+  }
 
   #recommendations h2 {
     font-size: 24px;
     width: 400%;
   }
 
-}
 
-.all_recommendations {
-  width: 100%;
-}
 
-.recommendation {
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
-}
+  .all_recommendations {
+    width: 100%;
+  }
 
-.recimg {
-  width: 100%;
-  height: auto;
-}
+  .recommendation {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
 
-#contact {
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
-}
+  .recimg {
+    width: 100%;
+    height: auto;
+  }
 
-.flex_center {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+  #contact {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
 
-fieldset {
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
-}
+  .flex_center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-legend {
-  font-size: 24px;
-}
+  fieldset {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
 
-input,
-textarea {
-  width: 100%;
-  margin-bottom: 10px;
-}
+  legend {
+    font-size: 24px;
+  }
 
-.iconbutton {
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
-  text-align: center;
-}
+  input,
+  textarea {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 
-.popup {
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
-  text-align: center;
-  display: none;
-}
+  .iconbutton {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+  }
 
-.popup.show {
-  display: block;
-}
+  .popup {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    display: none;
+  }
 
-footer {
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
-  text-align: center;
-}
+  .popup.show {
+    display: block;
+  }
 
-footer p {
-  font-size: 14px;
-}
+  footer {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
 }
